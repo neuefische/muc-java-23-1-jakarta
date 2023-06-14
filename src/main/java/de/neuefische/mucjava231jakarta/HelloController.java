@@ -5,7 +5,7 @@ import jakarta.ws.rs.core.MediaType;
 
 // Endpunkt den wir ansprechen
 @Path("/hello")
-public class HelloResource {
+public class HelloController {
 
     // GET /api/hello-world
     @GET
